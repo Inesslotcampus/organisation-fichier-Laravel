@@ -1,5 +1,7 @@
 # organisation-fichier-Laravel
 
+# Framework= ensemble de fichiers
+
 # Les dossiers
 
 ## app
