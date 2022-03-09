@@ -21,22 +21,29 @@ Le dossier config permet la __configuration du framework.__
 Le dossier database permet la __gestion de la base données.__
 
 Le principal sous-dossier : sous-dossier migrations. 
+
 __Les migrations sont des fichiers permettant de décrire votre base de données afin de permettre à Laravel de créer, modifier ou supprimer les tables et les colones automatiquement pour vous.__ Si vous avez déjà utilisé PHPMyAdmin, les migrations remplacent une partie l'utilisation de PHPMyAdmin.
 Les sous-dossiers seeds et factories ne sont pas utiles pour le moment.
 
 ## public
 
 Le dossier public contient __tous les fichiers accessibles directement par vos visiteurs.__
+
 Par exemple, si vous avez des images publiques sur votre site, elles doivent être dans le dossier public (ou dans un sous-dossier du dossier public). Même chose pour vos fichiers CSS et JavaScript.
+
 Laravel fournit de base quelques fichiers utiles comme un favicon, un fichier robots.txt…
+
 __Le fichier index.php est la porte d'entrée de votre application. C'est le seul fichier PHP accessible de l'extérieur et il sera responsable de lancer le framework et d'appeler votre code situé dans le dossier app. Vous n'aurez jamais à modifier ce fichier directement car, comme dit précédemment, notre code PHP se trouve dans le dossier app.__
 
 ## resources
 
 
 Le dossier resources contient de nombreuses choses diverses. Principalement pour les autres fichiers de notre application qui ne sont pas du code PHP.
+
 __Le dossier resources/js et resources/sass contient des fichiers pré-CSS et pré-JS avant leur compilation.__ Si vous n'avez jamais compilé de fichier SASS, ni utilisé Babel, Webpack ou autre pour compiler votre JavaScript, passez votre chemin. Nous aurons tout le temps d'étudier ces concepts par la suite.
+
 __Le dossier resources/lang contient les fichiers de traduction pour votre application. Ils ne vous seront utiles que si vous souhaitez créer un site multi-lingue.__
+
 __Le dossier resources/views contient les vues de votre application.__ Les vues sont des fichiers majoritairement composés de HTML et sont chargés de la partie affichage de votre site. C'est l'un des dossiers les plus importants après le dossier app.
 
 ## routes
@@ -47,8 +54,10 @@ Si vous souhaitez développer une API, le fichier routes/api.php sera l'endroit 
 ## storage
 
 __Le dossier storage/app contient tous les fichiers générés par votre application,__ par exemple des factures PDF, les photos de profil de vos utilisateurs, etc.
+
 __Le dossier storage/framework contient des fichiers utilisés uniquement par le framework.__ Il est recommandé de ne pas ajouter ou supprimer de fichiers à ce dossier.
-Enfin,__ le dossier storage/logs contient les fichiers de logs de votre application.__ Les fichiers de logs contiennent des informations sur l'activité de votre application. Par défaut, Laravel enregistrera dans un fichier storage/logs/laravel-YYYY-MM-DD.log tous les problèmes rencontrés par votre application : très utile pour comprendre pourquoi votre site ne fonctionne pas par exemple.
+
+Enfin,__le dossier storage/logs contient les fichiers de logs de votre application.__ Les fichiers de logs contiennent des informations sur l'activité de votre application. Par défaut, Laravel enregistrera dans un fichier storage/logs/laravel-YYYY-MM-DD.log tous les problèmes rencontrés par votre application : très utile pour comprendre pourquoi votre site ne fonctionne pas par exemple.
 
 ## tests
 
