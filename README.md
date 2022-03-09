@@ -38,7 +38,7 @@ __Le fichier index.php est la porte d'entrée de votre application. C'est le seu
 ## resources
 
 
-Le dossier resources contient de nombreuses choses diverses. Principalement pour les autres fichiers de notre application qui ne sont pas du code PHP.
+Le dossier resources contient de nombreuses choses diverses. __Principalement pour les autres fichiers de notre application qui ne sont pas du code PHP.__
 
 __Le dossier resources/js et resources/sass contient des fichiers pré-CSS et pré-JS avant leur compilation.__ Si vous n'avez jamais compilé de fichier SASS, ni utilisé Babel, Webpack ou autre pour compiler votre JavaScript, passez votre chemin. Nous aurons tout le temps d'étudier ces concepts par la suite.
 
